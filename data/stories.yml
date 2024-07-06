@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: recommander une moto
+  steps:
+
+  - intent: greet
+  - action: utter_greet
+
+  - action: utter_ask_permis #Quel type de permis avez-vous ? (A ou A2)
+  - intent: informer_permis
+    entities:
+      - permis: A
+  - slot_was_set:
+    - permis: A
+
+  - action: utter_ask_type_moto #Quel type de moto préférez-vous ? (Trail, Sportive, Roadster)
+  - intent: informer_moto
+    entities:
+      - type_moto: Trail
+  - slot_was_set:
+    - type_moto: Trail
+
+  - action: utter_ask_budget #Quel budget avez-vous ?
+  - intent: budgetting
+    entities:
+      - budget: 10000
+  - slot_was_set:
+    - budget: 10000
+    
+
+  - action: action_suggere_moto

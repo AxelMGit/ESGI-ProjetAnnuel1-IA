@@ -1,0 +1,81 @@
+version: "3.1"
+
+entities:
+  - permis
+  - type_moto
+  - budget
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - demander_recommendation
+  - informer_moto
+  - informer_permis
+  - budgetting
+
+slots:
+  permis:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: permis
+
+  type_moto:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: type_moto
+
+  budget:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: budget
+        conditions:
+          - active_loop: null
+
+
+
+responses:
+  utter_greet:
+  - text: "Bonjour ! Je suis ici pour vous aider avec votre moto. Je peut par exemple vous aider si vous cherchez une moto !"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Super ! Je suis ici pour vous aider avec votre moto. Je peut par exemple vous aider si vous chercher une moto !"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_ask_permis:
+  - text: Quel type de permis avez-vous ? (A ou A2)
+
+  utter_ask_type_moto:
+  - text: Quel type de moto préférez-vous ? (Trail, Sportive, Roadster)
+
+  utter_ask_budget:
+  - text: Quel budget avez-vous ?
+
+  utter_suggest_moto:
+  - text: Voici une suggestion de moto pour vous {moto}
+
+actions:
+  - action_suggere_moto
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

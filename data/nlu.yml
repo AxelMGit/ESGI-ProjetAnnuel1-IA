@@ -1,0 +1,141 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - bonjour
+    - salut
+    - wesh
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - ciao
+    - a bientot
+    - au revoir
+    - à plus
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - oui
+    - voila
+    - c'est ca
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - non
+    - pas maintenant
+    - pas tout de suite
+    - nop
+    - no
+    - non merci
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: demander_recommendation
+  examples: |
+    - Je cherche une moto avec un permis [A2](permis)
+    - Quelle moto pour un permis [A](permis) ?
+    - Je rechercher une moto
+
+- intent: informer_permis
+  examples: |
+    - J'ai un permis [A](permis)
+    - J'ai un permis [A2](permis)
+    - Je veux une moto [A2](permis)
+    - [A](permis)
+    - [A2](permis)
+
+- intent: informer_moto
+  examples: |
+    - Je recherche une moto [roadster](type_moto)
+    - Je recherche une [roadster](type_moto)
+    - Je préfère une moto [trail](type_moto)
+    - J'aime les motos [sportive](type_moto)
+    - [roadster](type_moto)
+    - [trail](type_moto)
+    - [sportive](type_moto)
+
+- intent: budgetting
+  examples: |
+    - J'ai un budget de [10000](budget)
+    - J'ai une somme de [5000](budget)
+    - J'ai [5000](budget)
+    - [7500](budget)
+    - Mon budget est de [20000](budget)
+    - Je peux dépenser jusqu'à [15000](budget)
+    - Je n'ai que [3000](budget) pour ça

@@ -31,7 +31,7 @@ motos = [
     # TRAILS A2
 
     {
-        "nom": "Honda CB500X",
+        "nom": "CB500X",
         "marque": "Honda",
         "type": "trail",
         "permis": "a2",
@@ -39,7 +39,7 @@ motos = [
         "puissance": 47
     },
     {
-        "nom": "Kawasaki Versys-X 300",
+        "nom": "Versys-X 300",
         "marque": "Kawasaki",
         "type": "trail",
         "permis": "a2",
@@ -47,7 +47,7 @@ motos = [
         "puissance": 40
     },
     {
-        "nom": "BMW G310GS",
+        "nom": "G310GS",
         "marque": "BMW",
         "type": "trail",
         "permis": "a2",
@@ -57,7 +57,7 @@ motos = [
 
     #TRAILS A
     {
-        "nom": "Yamaha Tenere 700",
+        "nom": "Tenere 700",
         "marque": "Yamaha",
         "type": "trail",
         "permis": "a",
@@ -65,7 +65,7 @@ motos = [
         "puissance": 72
     },
     {
-        "nom": "KTM 890 Adventure",
+        "nom": "890 Adventure",
         "marque": "KTM",
         "type": "trail",
         "permis": "a",
@@ -73,7 +73,7 @@ motos = [
         "puissance": 105
     },
     {
-        "nom": "Honda Africa Twin",
+        "nom": "Africa Twin",
         "marque": "Honda",
         "type": "trail",
         "permis": "a",
@@ -84,7 +84,7 @@ motos = [
     # SPORTIVES A2
 
     {
-        "nom": "Kawasaki Ninja 400",
+        "nom": "Ninja 400",
         "marque": "Kawasaki",
         "type": "sportive",
         "permis": "a2",
@@ -92,7 +92,7 @@ motos = [
         "puissance": 45
     },
     {
-        "nom": "Yamaha YZF-R3",
+        "nom": "YZF-R3",
         "marque": "Yamaha",
         "type": "sportive",
         "permis": "a2",
@@ -100,7 +100,7 @@ motos = [
         "puissance": 42
     },
     {
-        "nom": "Honda CBR500R",
+        "nom": "CBR500R",
         "marque": "Honda",
         "type": "sportive",
         "permis": "a2",
@@ -111,7 +111,7 @@ motos = [
     # SPORTIVES A
 
     {
-        "nom": "Yamaha YZF-R1",
+        "nom": "YZF-R1",
         "marque": "Yamaha",
         "type": "sportive",
         "permis": "a",
@@ -119,7 +119,7 @@ motos = [
         "puissance": 200
     },
     {
-        "nom": "Suzuki GSX-R1000",
+        "nom": "GSX-R1000",
         "marque": "Suzuki",
         "type": "sportive",
         "permis": "a",
@@ -127,7 +127,7 @@ motos = [
         "puissance": 199
     },
     {
-        "nom": "BMW S1000RR",
+        "nom": "S1000RR",
         "marque": "BMW",
         "type": "sportive",
         "permis": "a",
@@ -138,7 +138,7 @@ motos = [
     # ROADSTERS A2
 
     {
-        "nom": "Yamaha MT-07",
+        "nom": "MT-07",
         "marque": "Yamaha",
         "type": "roadster",
         "permis": "a2",
@@ -146,7 +146,7 @@ motos = [
         "puissance": 47
     },
     {
-        "nom": "Kawasaki Z400",
+        "nom": "Z400",
         "marque": "Kawasaki",
         "type": "roadster",
         "permis": "a2",
@@ -154,7 +154,7 @@ motos = [
         "puissance": 45
     },
     {
-        "nom": "Honda CB500F",
+        "nom": "CB500F",
         "marque": "Honda",
         "type": "roadster",
         "permis": "a2",
@@ -165,7 +165,7 @@ motos = [
     # ROADSTERS A
 
     {
-        "nom": "Yamaha MT-09",
+        "nom": "MT-09",
         "marque": "Yamaha",
         "type": "roadster",
         "permis": "a",
@@ -173,7 +173,7 @@ motos = [
         "puissance": 115
     },
     {
-        "nom": "Kawasaki Z900",
+        "nom": "Z900",
         "marque": "Kawasaki",
         "type": "roadster",
         "permis": "a",
@@ -181,7 +181,7 @@ motos = [
         "puissance": 125
     },
     {
-        "nom": "Honda CB650R",
+        "nom": "CB650R",
         "marque": "Honda",
         "type": "roadster",
         "permis": "a",
